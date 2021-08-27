@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Chowvaganza</title>
+</head>
+<body>
+		<div>
+	<main>
+	<header>
+<center><h1>Chowvaganza</h1></center>
+	</header>
+	</main>
+		</div>
+			<nav>
+<hr />
+<div class="links">
+<a href="home.html">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="menu.html">Menu</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="contact.html">Contact</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</div>
+<hr />
+			</nav>
+			<form action="contact.html" method="POST">
+<br />
+<br />
+<br />
+<center><label for="Name">Name:</label>
+<input type="text" id="name" name="Name"></center><br />
+<center><label for="email">Email:</label>
+<input type="text" id="email" name="Email"> </center> <br />
+<center><label for="Phone">Phone:</label>
+<input type="text" id="phone" name="phone"> </center> <br /><br />
+<center><label for="reason">Reason for Inquiry:</label>
+<select id="contact" name="contact"> 
+                <option value="default" selected>Catering</option>
+                <option selected>Private Party</option>
+                <option selected>Feedback</option>
+				<option selected>Other</option></center> <br />
+				</select> <br />
+				<br />
+<center><label for="additionalInfo">Additional Information:</label>
+<textarea id="info" name="info"></textarea></center><br />
+<label for="haveyou">Have you been to the restaurant?</label>
+<input type="radio" id="choice1" name="questionnaire" value="no"> 
+<label for="choice1">No</label>
+<input type="radio" id="choice2" name="questionnaire" value="yes"> 
+<label for="choice2">Yes</label> <br />
+<br />
+<label for="Bestdaytocontact">Best days to contact you:</label>
+			<input type="checkbox"  id="monday" name="contact" value="monday">
+			<label for="monday">M</label> 
+			<input type="checkbox" id="tuesday" name="contact" value="tuesday"> 
+			<label for="tuesday">T</label>
+			<input type="checkbox" id="wednesday" name="contact" value="wednesday"> 
+			<label for="wednesday">W</label>
+			<input type="checkbox" id="thursday" name="contact" value="thursday"> 
+			<label for="thursday">Th</label>
+			<input type="checkbox" id="friday" name="contact" value="friday"> 
+			<label for="friday">F</label> <br />
+			<br />
+<input type="submit" name="submit" value="Send Request">
+			</form>
+<br />
+<br />
+
+<style>
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: lightgray;
+color: black;
+text-align: center;
+}
+.links {
+	font-size:18px;
+}
+</style>
+<div class="footer">
+<center><address><p>Malacanang Palace, Princess Island 2400</p></center></address>
+<center><p>+63-(075)-568-31-27</p></center>
+</div></footer>
+</body>
+</html>
