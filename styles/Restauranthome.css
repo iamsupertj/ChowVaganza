@@ -1,0 +1,76 @@
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    }
+    .description {
+    font-size: 18px;
+    }
+      body {
+  background-color: beige;
+  }
+      header {
+  background-color: lightgrey;
+  color: #0d1f2d;
+  font-family: 'fantasy';
+  height: 80px;
+  padding: 25px 10px 150px 20px;
+  }
+  
+  h1 {
+  font-size: 3.5em;
+     padding-left: 50px;
+  }
+  h2 {
+     padding-left: 50px;
+     color: white;
+     font-weight: 600;
+     line-height: 0px;
+  }
+  h3 {
+      float:right;
+      padding-right: 100px;
+      color: white;
+      font-weight: 500;
+  }
+
+  nav a {
+  background-color: gray;
+  color: #fef9ff;
+  display: inline-block;
+  padding: 20px;
+  border: thin solid #0d1f2d;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100px;
+  margin: 20px;
+  float:left
+  border-bottom: 3px;
+  margin-top: 3px;
+  border-top: thin #5b7d87 solid;
+  border-bottom: thin #5b7d87 solid;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  }
+ .links {
+    word-spacing: 300;
+    padding-left: 50px;
+ }
+ .navbar {
+     background-color: gray;
+     color: #fef9ff;
+     display: inline-block;
+     text-align: center;
+     display: block;
+     float: left;
+     margin: 5px;
+     padding-left: 6px;
+     padding-right:6px;
+     border-radius: 7px;
+ }
